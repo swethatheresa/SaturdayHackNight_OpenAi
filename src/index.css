@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-image: url(/bg.png);
+  overflow: auto;
+  background-size: cover;
+  background-position: center;
+
+  font-family: "Anton", sans-serif;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  stroke: #010454;
+  color: black;
+}
+::-webkit-scrollbar-thumb {
+  background: #010696;
+  border-radius: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #0f0f10;
+  width: 10px;
+}
+
+.container {
+  width: var(75%);
+  color: transparent;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 20px;
+  width: 9%;
+  margin-top: 8%;
+
+  border: #fff 1.5px solid;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #010696;
+  transition: 0.4s;
+}
+
+.body {
+  background-size: cover;
+}

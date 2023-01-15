@@ -1,0 +1,59 @@
+.promptp1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85%;
+}
+
+.headna {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+
+  letter-spacing: -0.02em;
+
+  background: linear-gradient(
+      90deg,
+      #9da1ff 0%,
+      rgba(230, 214, 244, 0.856741) 62.29%,
+      rgba(255, 228, 217, 0.77) 100%
+    ),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+textarea {
+  background-color: transparent;
+  border: solid 3px rgb(212, 212, 212);
+  border-radius: 8px;
+  display: flex;
+  color: #c8c8c8;
+  font-family: "Anton";
+  max-height: 100%;
+  padding: 10px;
+  font-size: 20px;
+
+  width: 60%;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.output{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 55%;
+  border-radius: 7px;
+}
+
+.output img{
+width: auto;
+  height: 80%;
+  border-radius: 7px;
+}

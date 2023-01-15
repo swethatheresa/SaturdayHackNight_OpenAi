@@ -1,0 +1,63 @@
+.galleryp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.out {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.output1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 55%;
+  border-radius: 7px;
+}
+.output1 img {
+  margin: 40px;
+  background-color: #000000;
+  border: #0c0c0c 1.5px solid;
+  height: 80%;
+  width: 80%;
+}
+
+.output img:hover {
+  background-color: #050506;
+  border: #fafaff 1.5px solid;
+  transition: 0.4s;
+  height: 300px;
+  width: 300px;
+  transition: 0.1s;
+}
+
+.outputnames {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  background: linear-gradient(
+      90deg,
+      #9da1ff 0%,
+      rgba(230, 214, 244, 0.856741) 62.29%,
+      rgba(255, 228, 217, 0.77) 100%
+    ),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.outputnames h1 {
+  margin-left: 100px;
+}

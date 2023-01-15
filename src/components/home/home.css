@@ -1,0 +1,48 @@
+.homep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tit {
+  width: 100%;
+
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 166px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  justify-content: center;
+  background: linear-gradient(90deg, #7479fd 0%, rgba(255, 228, 217, 0.77) 100%),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.data {
+  flex-wrap: inherit;
+
+  width: 60%;
+
+  text-align: center;
+  color: #dad9d9;
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 26px;
+  line-height: 110%;
+
+  letter-spacing: -0.01em;
+  justify-content: center;
+}
+.coltxt {
+  color: #0309be;
+  -webkit-text-stroke: #000000;
+  -webkit-text-stroke-width: 0.5px;
+}
