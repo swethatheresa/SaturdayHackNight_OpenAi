@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../navbar/navbar";
 import { Configuration, OpenAIApi } from "openai";
+import Loader from "../Loader/loader";
 
 import "./prompts.css";
 import { useState } from "react";
@@ -11,17 +12,18 @@ const prompts = () => {
   // const apiKey =JSON.stringify({import.meta.env.REACT_APP_API_KEY});
   const [prompts, setPrompts] = useState("");
   const [img, setImg] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const generate = async () => {
     const config = new Configuration({
       apiKey: api_key,
     });
 
+    setIsLoading(true);
     const openai = new OpenAIApi(config);
 
     const result = await openai.createImage({
-      prompt:
-        prompts + "painting style da vinci or van gogh high resolution",
+      prompt: prompts,
       n: 1,
       size: "512x512",
       user: "sad",
@@ -30,6 +32,7 @@ const prompts = () => {
     const url = result.data.data[0].url;
     setImg(url);
     console.log(url);
+    setIsLoading(false);
 
     // send data
     const senddata = async () => {
@@ -63,9 +66,10 @@ const prompts = () => {
           value={prompts}
           onChange={handleChange}
         ></textarea>
-        <div className="btn button2" onClick={generate}>
+        <div className="btn button2" onClick={generate} visible={false}>
           SUBMIT
         </div>
+       <div> {isLoading ? <Loader /> : null}</div>
       </div>
       {img && (
         <div className="output">

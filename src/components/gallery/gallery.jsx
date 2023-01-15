@@ -25,6 +25,7 @@ const gallery = () => {
     <div className="body">
       <div className="galleryp">
         <Navbar />
+        <h1 className="headna h2">GALLERY</h1>
       </div>
       <div className="out">
         <div className="output1">
