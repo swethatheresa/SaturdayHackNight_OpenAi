@@ -24,7 +24,7 @@ https://www.loom.com/share/e1ef789c327846408d4e7ce97c8c30e8
 
 ## How it Works ?
 
-The user is first welcomed to a home page, on clicking EXPLORE user can generate a new image based on his/her prompt. The GALLERY option allows user to see previously generated images based on prompts.  
+The user is first welcomed to a home page, on clicking EXPLORE user moves to the prompts page where you can generate a new image based on your prompt. The GALLERY option allows user to see previously generated images based on prompts.  
 
 
 https://user-images.githubusercontent.com/83918978/212536298-274b6fff-3449-4b61-896d-528fcab50058.mp4
