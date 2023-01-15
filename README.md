@@ -18,13 +18,15 @@ The design tool used was Figma. The web app was developed using react as fronten
 ## Link to product walkthrough
 [link to video]
 ## How it Works ?
-1. Explaining the working of project
-2. Embed video of project demo
+
+The user is first welcomed to a home page, on clicking EXPLORE user can generate a new image based on his/her prompt. The gallery option allows user to see previously generated images based on prompts.  
 ## Libraries used
 Library Name - Version
 
  "axios": "^1.2.2"
+ 
  "openai": "^3.1.0"
+ 
  "react": "^18.2.0"
  
  "vite": "^4.0.0"
