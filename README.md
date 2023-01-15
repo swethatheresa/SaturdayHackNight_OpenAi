@@ -19,8 +19,7 @@ The design tool used was Figma. The web app was developed using react as fronten
 9CspZzcD1IaeTKezvkhB
 
 ## Link to product walkthrough
-https://www.loom.com/share/e1ef789c327846408d4e7ce97c8c30e8
-
+https://smartgallery.vercel.app/
 
 ## How it Works ?
 
