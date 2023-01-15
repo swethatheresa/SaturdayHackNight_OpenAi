@@ -16,10 +16,16 @@ The design tool used was Figma. The web app was developed using react as fronten
 9CspZzcD1IaeTKezvkhB
 
 ## Link to product walkthrough
-[link to video]
+https://www.loom.com/share/e1ef789c327846408d4e7ce97c8c30e8
+
+
 ## How it Works ?
 
-The user is first welcomed to a home page, on clicking EXPLORE user can generate a new image based on his/her prompt. The gallery option allows user to see previously generated images based on prompts.  
+The user is first welcomed to a home page, on clicking EXPLORE user can generate a new image based on his/her prompt. The GALLERY option allows user to see previously generated images based on prompts.  
+
+[![Watch the video](https://www.loom.com/share/e1ef789c327846408d4e7ce97c8c30e8)
+
+
 ## Libraries used
 Library Name - Version
 
