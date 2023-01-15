@@ -23,6 +23,11 @@ The design tool used was Figma. The web app was developed using react as fronten
 ## Libraries used
 Library Name - Version
 
+ "axios": "^1.2.2"
+ "openai": "^3.1.0"
+ "react": "^18.2.0"
+ 
+ "vite": "^4.0.0"
 ## How to configure
 Instructions for setting up project
 
