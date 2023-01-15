@@ -3,7 +3,10 @@
 
 # Smart Gallery
 Smart Gallery serves as a platform to generate images according to the user’s prompt using DALL-E API. It also maintains a gallery to show previously generated images.
+
 DALL·E’s flexibility allows users to create and edit original images ranging from the artistic to the photorealistic. DALL·E excels at following natural language descriptions so users can plainly describe what they want to see. 
+
+
 The design tool used was Figma. The web app was developed using react as frontend and express, node as backend.
 
 ## Team members
@@ -16,13 +19,26 @@ The design tool used was Figma. The web app was developed using react as fronten
 9CspZzcD1IaeTKezvkhB
 
 ## Link to product walkthrough
-[link to video]
+https://smartgallery.vercel.app/
+
 ## How it Works ?
-1. Explaining the working of project
-2. Embed video of project demo
+
+The user is first welcomed to a home page, on clicking EXPLORE user moves to the prompts page where you can generate a new image based on your prompt. The GALLERY option allows user to see previously generated images based on prompts.  
+
+
+https://user-images.githubusercontent.com/83918978/212536298-274b6fff-3449-4b61-896d-528fcab50058.mp4
+
+
 ## Libraries used
 Library Name - Version
 
+ "axios": "^1.2.2"
+ 
+ "openai": "^3.1.0"
+ 
+ "react": "^18.2.0"
+ 
+ "vite": "^4.0.0"
 ## How to configure
 Instructions for setting up project
 
